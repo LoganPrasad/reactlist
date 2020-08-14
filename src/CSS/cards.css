@@ -1,0 +1,29 @@
+
+.cards
+{
+    display: flex;
+    width:250px;
+    margin:20px;
+    object-fit: contain;
+    transition: transform 450ms;
+ 
+}
+.cards:hover
+{
+    transform: scale(1.20);
+    
+    border: 0;
+}
+
+
+.card_content
+{
+    width:100%;
+    min-height: 200px;
+
+
+}
+.cards_image
+{
+   min-height: 100px;;
+}

@@ -1,0 +1,41 @@
+
+.dashboard_container
+{
+   
+    
+    display: block;;
+    
+}
+
+.dashboard_header
+{
+    background-image: url("../resources/images/Azure-Cloud.jpg");
+    min-height: 50vh;
+    width: 100%;
+    
+}
+.dashboard_headercontent
+{
+    display: flex;
+    padding-top:100px;;
+    padding-left: 20px;;
+}
+.dashboard_headercontent > h2{
+    color: white;
+}
+.dashboard_content
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+    flex-flow: row wrap;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .dashboard_content
+{
+    margin-left: 40px;
+}
+  }

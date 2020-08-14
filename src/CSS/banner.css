@@ -1,0 +1,30 @@
+.banner
+{
+    color: aliceblue;
+    height: 480px;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    
+}
+.banner_content
+{
+    padding-top: 140px;;
+    margin-left: 20px;
+    height: 119px;
+}
+.banner_overview
+{
+    width:45rem;
+    font-size:0.8rem;
+    line-height: 1.3rem;
+    max-width: 300px;
+}
+
+.banner_trailer
+{
+   position: relative;
+   margin-bottom: 50px;
+   margin-top: -50px;
+
+}
